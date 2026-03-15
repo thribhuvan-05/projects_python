@@ -1,0 +1,71 @@
+# Task Manager REST API
+
+A REST API built with Flask that allows users to manage tasks.
+
+This project demonstrates backend API development using Python.
+
+## Features
+- Create tasks
+- View tasks
+- Update tasks
+- Delete tasks
+
+## Technologies Used
+- Python
+- Flask
+- REST API
+- JSON
+
+## Installation
+
+Install Flask:
+
+pip install flask
+
+## Usage
+
+Start the server:
+
+python task_api.py
+
+The API will run at:
+
+http://127.0.0.1:5000
+
+## API Endpoints
+
+GET /tasks  
+Returns all tasks.
+
+POST /tasks  
+Creates a new task.
+
+PUT /tasks/<id>  
+Updates task status.
+
+DELETE /tasks/<id>  
+Deletes a task.
+
+## Example Request
+
+POST /tasks
+
+{
+"title": "Complete Python project"
+}
+
+## Project Structure
+
+task-manager-api  
+│  
+├── task_api.py  
+└── README.md  
+
+## Skills Demonstrated
+- Backend development
+- API design
+- CRUD operations
+- JSON handling
+
+## Author
+Sai Thribhuvan
